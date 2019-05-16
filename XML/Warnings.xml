@@ -1,0 +1,429 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<report name="Warnings Report">
+  <created>12/19/2018 1:51:10 PM</created>
+  <not_reported_info>In this evaluation version, identifiers starting with J,K,L are excluded. Also some report lines are displayed as &quot;xxxxxx&quot;.</not_reported_info>
+  <section name="Interfaced identifiers that are used, but not outside of unit" count="628" oldcount="-2">
+    <item>
+      <id>AncestorIsValid</id>
+      <kind>Func, Interfaced</kind>
+      <locmod>Classes (1984)      </locmod>
+    </item>
+    <item>
+      <id>AnchorAlign : Array (static)</id>
+      <kind>Typed const, Interfaced</kind>
+      <locmod>Controls (2595)     </locmod>
+    </item>
+  </section>
+  <section name="Interfaced class identifiers that are public/published, but not used outside of unit" count="1040" oldcount="-2">
+    <item>
+      <id>Activate</id>
+      <kind>Proc, Method</kind>
+      <locmod>cxEdit\TcxCustomEdit (1496)</locmod>
+    </item>
+    <item>
+      <id>ActivateHint</id>
+      <kind>Proc, Method</kind>
+      <locmod>Forms\TApplication (1436)</locmod>
+    </item>
+  </section>
+  <section name="Variables that are referenced, but never set" count="199" oldcount="-2">
+    <item>
+      <id>AllowFree : Boolean</id>
+      <kind>Class Field</kind>
+      <locmod>SysUtils\EHeapException (332)</locmod>
+    </item>
+    <item>
+      <id>AndInfo : TBitmap</id>
+      <kind>Var, Local</kind>
+      <locmod>Graphics\ReadIcon (4681)</locmod>
+    </item>
+  </section>
+  <section name="Variables that are set, but never referenced" count="222" oldcount="-2">
+    <item>
+      <id>ABuffersize : Integer</id>
+      <kind>Var, Local</kind>
+      <locmod>MainFrm\TMainForm\COM_Messages (4878)</locmod>
+    </item>
+    <item>
+      <id>AUserID : Integer</id>
+      <kind>Var, Local</kind>
+      <locmod>TitanAPI\RestoreGridSettingFromDB (4594)</locmod>
+    </item>
+  </section>
+  <section name="Local variables that are referenced before they are set" count="428" oldcount="-2">
+    <item>
+      <id>AAnimationEnabled : BOOL</id>
+      <kind>Var, Local</kind>
+      <locmod>cxControls\TcxBaseHintWindow\GetAnimationStyle (4542)</locmod>
+    </item>
+    <item>
+      <id>ABackgroundColor : TColor</id>
+      <kind>Var, Local</kind>
+      <locmod>cxEdit\TcxCustomEditViewData\CalculateViewInfo (4275)</locmod>
+    </item>
+  </section>
+  <section name="Var parameters that are used, but never set" count="51" oldcount="-2">
+    <item>
+      <id>A : TVarData</id>
+      <kind>VarParam</kind>
+      <locmod>Variants\_VarArrayRedim (419)</locmod>
+    </item>
+    <item>
+      <id>A : TVarData</id>
+      <kind>VarParam</kind>
+      <locmod>Variants\_VarArrayGet (420)</locmod>
+    </item>
+  </section>
+  <section name="Value parameters that are set" count="185" oldcount="-2">
+    <item>
+      <id>AClass : TPersistentClass</id>
+      <kind>ValParam</kind>
+      <locmod>Classes\TClassFinder\Create (883)</locmod>
+    </item>
+    <item>
+      <id>AClass : TPersistentClass</id>
+      <kind>ValParam</kind>
+      <locmod>Classes\RegisterClass (1607)</locmod>
+    </item>
+  </section>
+  <section name="Interfaces passed as parameters without &quot;const&quot; directive" count="10" oldcount="-2">
+    <item>
+      <id>ACaller : IcxMouseTrackingCaller</id>
+      <kind>ValParam</kind>
+      <locmod>cxControls\BeginMouseTracking (919)</locmod>
+    </item>
+    <item>
+      <id>ACaller : IcxMouseTrackingCaller</id>
+      <kind>ValParam</kind>
+      <locmod>cxControls\EndMouseTracking (920)</locmod>
+    </item>
+  </section>
+  <section name="Variables with absolute directive" count="1" oldcount="-2">
+    <item>
+      <id>Bytes : TByteArray</id>
+      <kind>Var, Local</kind>
+      <locmod>TitanAPI\BufferToHex (3203)</locmod>
+    </item>
+  </section>
+  <section name="Constructors/destructors without calls to inherited" count="27" oldcount="-2">
+    <item>
+      <id>Create</id>
+      <kind>Constructor</kind>
+      <locmod>Classes\TCollectionItem (396)</locmod>
+    </item>
+    <item>
+      <id>Create</id>
+      <kind>Constructor</kind>
+      <locmod>Classes\TCollection (449)</locmod>
+    </item>
+  </section>
+  <section name="Destructors without override directive" count="0" oldcount="-2">
+  </section>
+  <section name="Classes with more than one destructor" count="0" oldcount="-2">
+  </section>
+  <section name="Function result not set" count="96" oldcount="-2">
+    <item>
+      <id>BoolToWStrViaOS</id>
+      <kind>Func, Global</kind>
+      <locmod>Variants (2323)     </locmod>
+    </item>
+    <item>
+      <id>CalculateDepthDelta</id>
+      <kind>Func, Method</kind>
+      <locmod>cxLabel\TcxCustomLabelProperties (224)</locmod>
+    </item>
+  </section>
+  <section name="Recursive subprograms" count="0" oldcount="-2">
+  </section>
+  <section name="Dangerous Exit-statements" count="0" oldcount="-2">
+  </section>
+  <section name="Dangerous Raise" count="0" oldcount="-2">
+  </section>
+  <section name="Dangerous Label-locations inside for-loops" count="0" oldcount="-2">
+  </section>
+  <section name="Dangerous Label-locations inside repeat/while-loops" count="0" oldcount="-2">
+  </section>
+  <section name="Possible bad object creation" count="4" oldcount="-2">
+    <loc>
+      <locmod>Classes</locmod>
+      <locline>7140</locline>
+    </loc>
+    <loc>
+      <locmod>Controls</locmod>
+      <locline>7713</locline>
+    </loc>
+  </section>
+  <section name="Bad thread-local variables" count="0" oldcount="-2">
+  </section>
+  <section name="Instance created of class with abstract methods" count="0" oldcount="-2">
+  </section>
+  <section name="Empty begin/end-blocks" count="155" oldcount="-2">
+    <loc>
+      <locmod>Windows</locmod>
+      <locline>32451</locline>
+    </loc>
+    <loc>
+      <locmod>Windows</locmod>
+      <locline>32505</locline>
+    </loc>
+  </section>
+  <section name="Empty case labels" count="13" oldcount="-2">
+    <loc>
+      <locmod>SysUtils</locmod>
+      <locline>5304</locline>
+    </loc>
+    <loc>
+      <locmod>SysUtils</locmod>
+      <locline>5342</locline>
+    </loc>
+  </section>
+  <section name="Short-circuited for-statements" count="0" oldcount="-2">
+  </section>
+  <section name="Short-circuited if-statements" count="0" oldcount="-2">
+  </section>
+  <section name="Short-circuited on-statements" count="0" oldcount="-2">
+  </section>
+  <section name="Short-circuited repeat-statements" count="1" oldcount="-2">
+    <loc>
+      <locmod>SysUtils</locmod>
+      <locline>18053</locline>
+    </loc>
+  </section>
+  <section name="Short-circuited while-statements" count="1" oldcount="-2">
+    <loc>
+      <locmod>Forms</locmod>
+      <locline>9682</locline>
+    </loc>
+  </section>
+  <section name="Empty except-block" count="34" oldcount="-2">
+    <loc>
+      <locmod>siComp</locmod>
+      <locline>3873</locline>
+    </loc>
+    <loc>
+      <locmod>siComp</locmod>
+      <locline>3998</locline>
+    </loc>
+  </section>
+  <section name="Empty finally-block" count="7" oldcount="-2">
+    <loc>
+      <locmod>StdCtrls</locmod>
+      <locline>6152</locline>
+    </loc>
+    <loc>
+      <locmod>MainFrm</locmod>
+      <locline>1764</locline>
+    </loc>
+  </section>
+  <section name="Forward directive in interface" count="0" oldcount="-2">
+  </section>
+  <section name="Ambiguous references in with-blocks" count="0" oldcount="-2">
+  </section>
+  <section name="Classes without overrides of abstract methods" count="12" oldcount="-2">
+    <form>
+      <name>TCustomVariantType.Clear in Variants(190)</name>
+      <bordericons>TInvokeableVariantType</bordericons>
+    </form>
+    <form>
+      <name>TCustomVariantType.Copy in Variants(191)</name>
+      <bordericons>TInvokeableVariantType</bordericons>
+    </form>
+    <form>
+      <name>TStrings.Insert in Classes(581)</name>
+      <bordericons>TCustomComboBoxStrings</bordericons>
+    </form>
+    <form>
+      <name>TCustomListControl.AddItem in Controls(2406)</name>
+      <bordericons>TCustomMultiSelectListControl</bordericons>
+    </form>
+    <form>
+      <name>TCustomListControl.Clear in Controls(2407)</name>
+      <bordericons>TCustomMultiSelectListControl</bordericons>
+    </form>
+    <form>
+      <name>TCustomListControl.ClearSelection in Controls(2408)</name>
+      <bordericons>TCustomMultiSelectListControl</bordericons>
+    </form>
+    <form>
+      <name>TCustomListControl.CopySelection in Controls(2409)</name>
+      <bordericons>TCustomMultiSelectListControl</bordericons>
+    </form>
+    <form>
+      <name>TCustomListControl.DeleteSelected in Controls(2410)</name>
+      <bordericons>TCustomMultiSelectListControl</bordericons>
+    </form>
+    <form>
+      <name>TCustomListControl.SelectAll in Controls(2413)</name>
+      <bordericons>TCustomMultiSelectListControl</bordericons>
+    </form>
+    <form>
+      <name>TStream.Write in Classes(692)</name>
+      <bordericons>TCustomMemoryStream</bordericons>
+    </form>
+    <form>
+      <name>TCustomListControl.GetItemIndex in Controls(2403)</name>
+      <bordericons>TCustomMultiSelectListControl</bordericons>
+    </form>
+    <form>
+      <name>TCustomListControl.GetCount in Controls(2411)</name>
+      <bordericons>TCustomMultiSelectListControl</bordericons>
+    </form>
+  </section>
+  <section name="Local for-loop variables read after loop" count="6" oldcount="-2">
+    <item>
+      <id>I : Integer</id>
+      <kind>Var, Local</kind>
+      <locmod>SysUtils\TStringBuilder\Append (20981)</locmod>
+    </item>
+    <item>
+      <id>I : Integer</id>
+      <kind>Var, Local</kind>
+      <locmod>Controls\TDockTree\SaveToStream (14106)</locmod>
+    </item>
+  </section>
+  <section name="For-loop variables not used in loop" count="26" oldcount="-2">
+    <item>
+      <id>I : Integer</id>
+      <kind>Var, Local</kind>
+      <locmod>SysUtils\UpperCaseFromAnsiString (3980)</locmod>
+    </item>
+    <item>
+      <id>I : Integer</id>
+      <kind>Var, Local</kind>
+      <locmod>SysUtils\UpperCase (4087)</locmod>
+    </item>
+  </section>
+  <section name="Non-public constructors/destructors" count="2" oldcount="-2">
+    <item>
+      <id>Create</id>
+      <kind>Constructor</kind>
+      <locmod>Forms\TControlScrollBar (81)</locmod>
+    </item>
+    <item>
+      <id>CreateNative</id>
+      <kind>Constructor</kind>
+      <locmod>dxGDIPlusClasses\TdxGPBrush (50)</locmod>
+    </item>
+  </section>
+  <section name="Functions called as procedures" count="2668" oldcount="2668">
+    <name>Windows.InterlockedIncrement</name>
+    <loc>
+      <locmod>Classes</locmod>
+      <locline>10812</locline>
+    </loc>
+    <name>Windows.InterlockedDecrement</name>
+    <loc>
+      <locmod>Classes</locmod>
+      <locline>10817</locline>
+    </loc>
+  </section>
+  <section name="Mismatch property read/write specifiers" count="0" oldcount="-2">
+  </section>
+  <section name="Local variables that are set but not later used" count="24" oldcount="-2">
+    <item>
+      <id>ABuffersize : Integer</id>
+      <kind>Var, Local</kind>
+      <locmod>MainFrm\TMainForm\COM_Messages (4878)</locmod>
+    </item>
+    <item>
+      <id>AccessStream : IStream</id>
+      <kind>Var, Local</kind>
+      <locmod>dxGDIPlusClasses\TdxGPImage\LoadFromDataStream (860)</locmod>
+    </item>
+  </section>
+  <section name="Duplicate lines" count="11" oldcount="-2">
+    <item>
+      <module>Classes</module>
+      <locline>7957</locline>
+      <string>ReadStr</string>
+    </item>
+    <item>
+      <module>ExtCtrls</module>
+      <locline>3623</locline>
+      <string>FRowCollection.Add</string>
+    </item>
+    <item>
+      <module>ExtCtrls</module>
+      <locline>3625</locline>
+      <string>FColumnCollection.Add</string>
+    </item>
+    <item>
+      <module>MainFrm</module>
+      <locline>14892</locline>
+      <string>Add(&apos;&lt;br&gt;&apos;)</string>
+    </item>
+    <item>
+      <module>MainFrm</module>
+      <locline>15626</locline>
+      <string>Add(&apos;&lt;br&gt;&apos;)</string>
+    </item>
+    <item>
+      <module>MainFrm</module>
+      <locline>15693</locline>
+      <string>Add(&apos;&lt;br&gt;&apos;)</string>
+    </item>
+    <item>
+      <module>MainFrm</module>
+      <locline>15744</locline>
+      <string>Add(&apos;&lt;br&gt;&apos;)</string>
+    </item>
+    <item>
+      <module>MainFrm</module>
+      <locline>15818</locline>
+      <string>Add(&apos;&lt;br&gt;&apos;)</string>
+    </item>
+    <item>
+      <module>MainFrm</module>
+      <locline>2570</locline>
+      <string>Add(&apos;&lt;br&gt;&apos;)</string>
+    </item>
+    <item>
+      <module>siComp</module>
+      <locline>6565</locline>
+      <string>)</string>
+    </item>
+    <item>
+      <module>Windows</module>
+      <locline>621</locline>
+      <string>*</string>
+    </item>
+  </section>
+  <section name="Duplicate class types in except-block" count="0" oldcount="-2">
+  </section>
+  <section name="Redeclared identifiers from System unit" count="79" oldcount="-2">
+    <item>
+      <id>ClassName : UnicodeString</id>
+      <kind>Var, Local</kind>
+      <locmod>Classes\ObjectBinaryToText\ConvertHeader (9857)</locmod>
+    </item>
+    <item>
+      <id>ClassName : UnicodeString</id>
+      <kind>Var, Local</kind>
+      <locmod>Classes\ObjectTextToBinary\ConvertHeader (10304)</locmod>
+    </item>
+  </section>
+  <section name="Out parameter is read before set" count="6" oldcount="-2">
+    <item>
+      <id>ABackgroundRect : TRect</id>
+      <kind>OutParam</kind>
+      <locmod>cxEdit\TcxCustomEditViewInfo\DoDrawButtonBorder (426)</locmod>
+    </item>
+    <item>
+      <id>AContentRect : TRect</id>
+      <kind>OutParam</kind>
+      <locmod>cxEdit\TcxCustomEditViewInfo\DoDrawButtonBorder (426)</locmod>
+    </item>
+  </section>
+  <section name="Bigger assigned to smaller" count="7" oldcount="-2">
+    <name>Result</name>
+    <loc>
+      <locmod>SysUtils</locmod>
+      <locline>8284</locline>
+    </loc>
+    <name>DOW</name>
+    <loc>
+      <locmod>SysUtils</locmod>
+      <locline>14868</locline>
+    </loc>
+  </section>
+</report>

@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<report name="Memory Report">
+  <created>4/3/2019 3:26:20 PM</created>
+  <section name="Local objects with unprotected calls to Free" count="44" oldcount="-2">
+    <item>
+      <id>ABitmap : TBitmap</id>
+      <kind>Var, Local</kind>
+      <locmod>PatientLocatorFrame\TPatientLocatorFrame\gridPatientLocatorDBTableView1Customdrawcolumnheader (809)</locmod>
+    </item>
+    <item>
+      <id>ABitmap : TBitmap</id>
+      <kind>Var, Local</kind>
+      <locmod>RoomSearchesFrame\TRoomSearchFrame\gridCasesDBTableView1CustomDrawColumnheader (523)</locmod>
+    </item>
+    <item>
+      <id>ABitmap : TBitmap</id>
+      <kind>Var, Local</kind>
+      <locmod>RoomStatusFrame\TRoomStatusFrames\cxtvStatusCustomDrawColumnHeader (142)</locmod>
+    </item>
+    <item>
+      <id>ABitmap : TBitmap</id>
+      <kind>Var, Local</kind>
+      <locmod>SearchFrame\TTSearchFrame\Main_grdDBTableView1CustomDrawColumnheader (595)</locmod>
+    </item>
+    <item>
+      <id>ABrush : TBrush</id>
+      <kind>Var, Local</kind>
+      <locmod>CaseProcedureAddFrm\TCaseProcedureAddForm\cxtcProcedureListDrawTab (414)</locmod>
+    </item>
+    <item>
+      <id>ABrush : TBrush</id>
+      <kind>Var, Local</kind>
+      <locmod>ConfigurationSettingsFrm\TConfigurationSettingsForm\pgcConfigSettingsDrawTab (6792)</locmod>
+    </item>
+    <item>
+      <id>ACC5Object : TACC5CustomData</id>
+      <kind>Var, Local</kind>
+      <locmod>NetFailRemoteSyncThreadUnit\TNetFailRemoteSyncThread\Execute (273)</locmod>
+    </item>
+    <item>
+      <id>APhilipsAcc4RegistryImportExport : TPhilipsAcc4RegistryImportExport</id>
+      <kind>Var, Local</kind>
+      <locmod>RegistryListsManagementFrm\TRegistryListManagementForm\btnExportAcc4Click (271)</locmod>
+    </item>
+    <item>
+      <id>APhilipsAcc4RegistryImportExport : TPhilipsAcc4RegistryImportExport</id>
+      <kind>Var, Local</kind>
+      <locmod>RegistryListsManagementFrm\TRegistryListManagementForm\btnImportAcc4Click (323)</locmod>
+    </item>
+    <item>
+      <id>APhilipsRegistryImportExport : TPhilipsRegistryImportExport</id>
+      <kind>Var, Local</kind>
+      <locmod>ACC3MainFrm\TACC3MainForm\btnExportClick (1494)</locmod>
+    </item>
+    <item>
+      <id>APhilipsRegistryImportExport : TPhilipsRegistryImportExport</id>
+      <kind>Var, Local</kind>
+      <locmod>RegistryListsManagementFrm\TRegistryListManagementForm\btnImportClick (462)</locmod>
+    </item>
+    <item>
+      <id>AProgressForm : TProgressForm</id>
+      <kind>Var, Local</kind>
+      <locmod>RegistryFrm\TRegistryForm\ExecuteScrapers (755)</locmod>
+    </item>
+    <item>
+      <id>AProgressForm : TProgressForm</id>
+      <kind>Var, Local</kind>
+      <locmod>ScraperFrm\TScraperForm\btnTestBatchClick (2297)</locmod>
+    </item>
+    <item>
+      <id>AStrings : TStringList</id>
+      <kind>Var, Local</kind>
+      <locmod>MainFrm\TMainForm\WorklistAdmitClick (3695)</locmod>
+    </item>
+    <item>
+      <id>ChartingUnitTypesDlgForm : TChartingUnitTypesDlgForm</id>
+      <kind>Var, Local</kind>
+      <locmod>ConfigurationSettingsFrm\TConfigurationSettingsForm\ButtonClick (2465)</locmod>
+    </item>
+    <item>
+      <id>eb : TExceptionBox</id>
+      <kind>Var, Local</kind>
+      <locmod>madExcept\ShowException\ShowExceptBox (9637)</locmod>
+    </item>
+    <item>
+      <id>ExcludeList : TExcludeFieldList</id>
+      <kind>Var, Local</kind>
+      <locmod>ACC5MainFrm\TACC5MainForm\SaveScreenDataToTable (1127)</locmod>
+    </item>
+    <item>
+      <id>GlobalPasswordSettings : TGlobalPasswordSettings</id>
+      <kind>Var, Local</kind>
+      <locmod>LogOnFrm\TLogonForm\CheckAndEnableForgotPassword (1370)</locmod>
+    </item>
+    <item>
+      <id>HemoCalculations : TPhilipsHemoClass</id>
+      <kind>Var, Local</kind>
+      <locmod>CaseFrm\TCaseForm\btnPreviewClick (3018)</locmod>
+    </item>
+    <item>
+      <id>HemoCalculations : TPhilipsHemoClass</id>
+      <kind>Var, Local</kind>
+      <locmod>CaseFrm\TCaseForm\edtAccessionNumberPropertiesEditvaluechanged (10501)</locmod>
+    </item>
+    <item>
+      <id>HemoCalculations : TPhilipsHemoClass</id>
+      <kind>Var, Local</kind>
+      <locmod>CaseFrm\TCaseForm\VerifyReAdmitRequired (22447)</locmod>
+    </item>
+    <item>
+      <id>HemoCalculations : TPhilipsHemoClass</id>
+      <kind>Var, Local</kind>
+      <locmod>CaseTranscriptionFrame\TTranscriptionFrame\btnRefreshClick (747)</locmod>
+    </item>
+    <item>
+      <id>HemoCalculations : TPhilipsHemoClass</id>
+      <kind>Var, Local</kind>
+      <locmod>HemoFrm\THemoForm\btnPrintClick (1787)</locmod>
+    </item>
+    <item>
+      <id>lbData : TStringList</id>
+      <kind>Var, Local</kind>
+      <locmod>ACC3MainFrm\TACC3MainForm\cbParentFieldPropertiesChange (2413)</locmod>
+    </item>
+    <item>
+      <id>lbData : TStringList</id>
+      <kind>Var, Local</kind>
+      <locmod>ICDRegistryFrm\TICDResgistryForm\cbParentElementPropertiesChange (1413)</locmod>
+    </item>
+    <item>
+      <id>lbData : TStringList</id>
+      <kind>Var, Local</kind>
+      <locmod>ICDRegistryFrm\TICDResgistryForm\cbParentFieldPropertiesChange (1466)</locmod>
+    </item>
+    <item>
+      <id>lbData : TStringList</id>
+      <kind>Var, Local</kind>
+      <locmod>STSRegistryFrm\TSTSRegistryForm\cbParentElementPropertiesChange (1906)</locmod>
+    </item>
+    <item>
+      <id>lBitmap : TBitmap</id>
+      <kind>Var, Local</kind>
+      <locmod>VitalSignsTrendingFrm\TVitalSignsTrendingForm\cxbtnPrintAllClick (188)</locmod>
+    </item>
+    <item>
+      <id>MedDosageForm : TMedicationDosageForm</id>
+      <kind>Var, Local</kind>
+      <locmod>MainFrm\TMainForm\MedDoseCalc1Click (11444)</locmod>
+    </item>
+    <item>
+      <id>ObjManager : TACCManagerRegistryCustomData</id>
+      <kind>Var, Local</kind>
+      <locmod>CaseDataUnit\TCaseDataLoaderThread\LoadAndSyncACC5Tables (23271)</locmod>
+    </item>
+    <item>
+      <id>ObjManager : TACCManagerRegistryCustomData</id>
+      <kind>Var, Local</kind>
+      <locmod>RegistryListsManagementFrm\TRegistryListManagementForm\LoadAndSyncACC5 (827)</locmod>
+    </item>
+    <item>
+      <id>ObjManager : TACCManagerRegistryCustomData</id>
+      <kind>Var, Local</kind>
+      <locmod>RegistryRefSyncDataUnit\TRegistryReferenceDataLoaderThread\LoadAndSyncACC5Tables (4012)</locmod>
+    </item>
+    <item>
+      <id>SelectLesionDlgForm : TSelectLesionDlgForm</id>
+      <kind>Var, Local</kind>
+      <locmod>S4InterfaceFunctions\S4DataCallbackFunc (1268)</locmod>
+    </item>
+    <item>
+      <id>SelectPositionDlgForm : TSelectPositionDlgForm</id>
+      <kind>Var, Local</kind>
+      <locmod>S4InterfaceFunctions\S4DataCallbackFunc (1266)</locmod>
+    </item>
+    <item>
+      <id>SelectStructureDlgForm : TSelectStructureDlgForm</id>
+      <kind>Var, Local</kind>
+      <locmod>S4InterfaceFunctions\S4DataCallbackFunc (1265)</locmod>
+    </item>
+    <item>
+      <id>SelectVesselDlgForm : TVesselTerminationDlgForm</id>
+      <kind>Var, Local</kind>
+      <locmod>S4InterfaceFunctions\S4DataCallbackFunc (1267)</locmod>
+    </item>
+    <item>
+      <id>sl : TStringList</id>
+      <kind>Var, Local</kind>
+      <locmod>WittLog\TWittLogParser\GetCPUInfoAsPitem (3030)</locmod>
+    </item>
+    <item>
+      <id>sl : TStringList</id>
+      <kind>Var, Local</kind>
+      <locmod>WittLog\TWittLogParser\GetOSVIAsPitem (3151)</locmod>
+    </item>
+    <item>
+      <id>sl : TStringList</id>
+      <kind>Var, Local</kind>
+      <locmod>WittLog\TWittLogParser\GetTimerResolutionsAsPitem (3249)</locmod>
+    </item>
+    <item>
+      <id>sl : TStringList</id>
+      <kind>Var, Local</kind>
+      <locmod>WittLog\TWittLogParser\GetMemoryStatus (3363)</locmod>
+    </item>
+    <item>
+      <id>sStrList : TStringList</id>
+      <kind>Var, Local</kind>
+      <locmod>ACC3MainFrm\TACC3MainForm\ChangeProperties (2523)</locmod>
+    </item>
+    <item>
+      <id>sStrList : TStringList</id>
+      <kind>Var, Local</kind>
+      <locmod>ICDRegistryFrm\TICDResgistryForm\ChangeProperties (1543)</locmod>
+    </item>
+    <item>
+      <id>sStrList : TStringList</id>
+      <kind>Var, Local</kind>
+      <locmod>STSRegistryFrm\TSTSRegistryForm\ChangeProperties (1979)</locmod>
+    </item>
+    <item>
+      <id>tmpStringList : TStringList</id>
+      <kind>Var, Local</kind>
+      <locmod>ConfigurationSettingsFrm\TConfigurationSettingsForm\SetFields (8959)</locmod>
+    </item>
+  </section>
+</report>
